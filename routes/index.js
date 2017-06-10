@@ -21,7 +21,7 @@ pg.connect(connectionString, (err, client, done) => {
         return res.status(500).json({success: false, data: err});
     }
     // SQL Query > Select Data
-    const query = client.query('SELECT * FROM feeds ORDER BY post_date DESC;');
+    const query = client.query('SELECT * FROM feeds ORDER BY post_date DESC limit 5;');
 // Stream results back one row at a time
 query.on('row', (row) => {
     results.push(row);
