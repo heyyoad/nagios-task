@@ -18,3 +18,4 @@ So what i've done is basically:
 
 #### notes
 * not meant for production of course, just a simple poc
+* i've used text file for temp data holder just to showcase another method. reliable db should be used in production (like the handler script)
