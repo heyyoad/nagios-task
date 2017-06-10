@@ -14,7 +14,7 @@ So what i've done is basically:
 * the nagios service is located at: http://35.158.20.35/nagios/
 * the service is basically located at the "localhost" host and it is called RSS
 * the node service that will display the feeds is at: http://35.158.20.35:3000
-* both script & node service are located in on my repo
+* both script & node service are located here
 
 #### notes
 * not meant for production of course, just a simple poc
