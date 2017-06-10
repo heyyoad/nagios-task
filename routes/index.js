@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 pg = require('pg');
 const path = require('path');
-const connectionString = process.env.DATABASE_URL || 'postgres://pg_user:"P@ssw0rd"@127.0.0.1:5432/rss_feeds';
+const connectionString = process.env.DATABASE_URL || 'postgres://pg_user:justforfun@127.0.0.1:5432/rss_feeds';
 
 
 /* GET home page. */
